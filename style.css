@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: #000;
+}
+section {
+    margin: auto 70px;
+    
+}
+header {
+    height: 100vh;
+    background-image: url(./images/back-top.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 40%;
+    top: 0;
+    right: 0;
+}
+.logo {
+    margin: 10px;
+    padding: 0;
+}
+.logo img {
+    width: 20%;
+    margin-left: 80px;
+}
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #27004e;
+}
+.nav-nav {
+    margin: 0;
+    padding: 0;
+}
+.nav__menu {
+    display: flex;
+    margin-right: 100px;
+    position: absolute;
+    right: 0;
+}
+ul li a {
+    font-size: 22px;
+    margin: auto 15px;
+    color: #fff;
+
+}
+
+/*----------------- Home Text style-------------------------*/
+.achor-text {
+    margin-top: 6%;
+    margin-left: 100px;
+}
+.hero-tag {
+    color: #4A0067;
+    font-size: 20px;
+    font-weight: 400;
+}
+.tag-line {
+    font-size: 70px;
+    color: #01001d;
+}
+.description {
+    width: 450px;
+    font-size: 20px;
+}
+.fa-circle-play {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/*--------------- Button styling---------------------*/
+button {
+    background: #4A0067;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px auto;
+    transition: 1.5s ease-in;
+    cursor: pointer;
+}
+button:hover {
+    background: transparent;
+    border: 1px solid #4A0067;
+    color: #fff;
+    transition: 0.1s ease-out;
+
+}
+button a {
+    font-size: 18px;
+    color: #fff;
+}
+
+
+/*------------------- About Styling-------------------*/
+.about-section {
+    text-align: center;
+    justify-content: center;
+}
+.about-h1 {
+    color: #4A0067;
+    margin: 15px auto;
+    font-size: 40px;
+}
+.about-text {
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/*---------------------Value Statement-----------------------------*/
+.value-statement {
+    margin: 50px 20%;
+}
+.mission {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.mission h2 {
+    margin: 15px auto;
+    color: #4A0067;
+    font-size: 24px;
+}
+.mission p {
+    width: 550px;
+    font-size: 20px;
+}
+.mission img {
+    margin-left: 40px;
+}
+/*---------------------Tech Activities-------------------------------*/
+.tech-activities {
+   margin: auto 13%;
+   padding: 25px;
+}
+.tech-activities .about-h1 {
+    text-align: center;
+    margin: 5% auto;
+}
+.tech__materials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem; 
+}
+.tech-talks {
+    background: transparent;
+    height: 120%;
+    text-align: center;
+    position: relative;
+    border: 2px solid #27004e;
+    border-radius: 15px;
+    padding: 1rem;
+}
+.tech-talks:hover {
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.3);
+}
+.tech-talks h3 {
+    color: #4A0067;
+    font-size: 1.5rem;
+    margin: 15px auto;
+}
+.tech-talks p {
+    font-size: 20px;
+    margin: 1.5rem 10px;
+}
+.join-btn {
+    position: absolute;
+    bottom: 0;
+    padding: 15px 30px;
+}
+
+
+/*----------icons---------------------*/
+.fa-brands, .fa-solid {
+    font-size: 50px;
+    color: #27004e;
+}
+.fa-light {
+    font-size: 50px;
+    color: #27004e;
+}
+/*---------------Event styling--------------------------*/
+.event {
+    margin-top: 6rem;
+    text-align: center;
+    background: #27004e;
+}
+div .about-h1 {
+    color: #fff;
+    padding-top: 5%;
+}
+.event p {
+    color: #fff;
+    font-size: 22px;
+}
+.newsletter-btn {
+    padding: 10px 20px;
+    background: #fff;
+}
+.newsletter-btn a {
+    color: #27004e;
+}
+
+/*--------------Achievements styling--------------------*/
+.achievement-container {
+    text-align: center;
+    margin: 2rem 10rem;
+}
+.achievements {
+    display: flex;
+    padding: 20px;
+}
+.achievements p:hover {
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.3);
+
+}
+.achievements p {
+    text-align: center;
+    font-size: 20px;
+    background: #27004e;
+    color: #fff;
+    cursor: pointer;
+    margin: 2rem 3rem;
+    padding: 2rem;
+    width: 170px;
+    border-radius: 50%;
+}
+
+/*---------------footer styling---------------------*/
+footer {
+    background: #27004e;
+    padding-top: 4rem;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+.footer__logo img {
+    width: 70%;
+
+}
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 0 10%;
+}
+
+.footer__1 {
+    padding: 20px;
+   
+}
+.footer__1 p {
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer__2, .permalinks a {
+    line-height: 1.5;
+    color: #fff;
+    padding: 20px;
+}
+.footer__3 p {
+    color: #ffffff;
+    line-height: normal;
+    font-size: 20px;
+    width: 300px;
+}
+.footer__3 h4 {
+    color: #ffffff;
+    font-size: 22px;
+    text-align: justify;
+    line-height: normal;
+    padding-bottom: 15px;
+}
+
+.footer__3, input {
+    padding: 12px;
+    margin-top: 10px;
+}
+.footer__3, .submit {
+    margin-right: 0px;
+}
+.footer ul li, a:hover {
+    color: #01001d;
+    transition: 0.5ms ease-out;
+}
+.footer__socials {
+    display: flex;
+    gap: 0.1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.fa-facebook, .fa-linkedin, .fa-instagram, .fa-twitter {
+    color: #fff;
+    font-size: 18px;
+    background: #4A0067;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-tag {
+        width: 350px;
+        font-size: 14px;
+        margin-top: 90px;
+    }
+    .description {
+        width: 350px;
+        font-size: 20px;
+    }
+    span, .home-btn {
+        display: block;
+        font-size: 18px;
+    }
+
+    .value-statement {
+        margin: 50px 20%;
+    }
+    .mission {
+       display: block;
+       align-items: center;
+       justify-content: center;
+    }
+    .mission h2 {
+        text-align: center;
+        font-size: 22px;
+        padding-top: 15px;
+    }
+    .mission p {
+        width: 350px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .mission img {
+        display: none;
+    }
+
+    .tech__materials {
+        display: block;
+        gap: 3rem;
+    }
+    .tech-talks {
+        margin-top: 3rem;
+    }
+
+    .join-btn {
+        bottom: 0;
+        padding: 10px 25px;
+    }
+    .about-h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .achievement-container {
+        margin-left: 60px;
+    }
+    .achievements {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    .achievements p {
+        margin: auto -2%;
+    }
+    .footer__container {
+        display: block;
+        margin: 0 10%;
+        align-items: center;
+    }
+    .footer__3 {
+        margin-left: 40px;
+    }
+    .footer__3 p {
+        width: 400px;
+    }
+}
